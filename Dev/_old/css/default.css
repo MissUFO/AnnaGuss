@@ -68,11 +68,11 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: black;
+  color: #fdcc52;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fdcc52;
+  color: #fcbd20;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -87,15 +87,15 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: black;
+  color: #222222;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #696960;
+  color: #fdcc52;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #696960 !important;
+  color: #fdcc52 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -108,38 +108,38 @@ p {
     border-color: transparent;
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: black;
+    color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: #696960;
+    color: white;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
-    color: black;
+    color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: #696960;
+    color: white;
   }
   .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: black;
+    color: #222222;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #696960;;
+    color: #fdcc52;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: black;
+    color: #222222;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #696960;;
+    color: #fdcc52;
   }
 }
 header {
@@ -147,17 +147,13 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: #F2F1EF;
-  background: -webkit-linear-gradient(#F2F1EF, #E9E6E1);
-  background: linear-gradient(#F2F1EF, #E9E6E1);
-
-  /*background: url("../img/bg-pattern.png"), #F2F1EF;*/
+  background: url("../img/bg-pattern.png"), #7b4397;
   /* fallback for old browsers */
-  /*background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #F2F1EF, #E9E6E1);*/
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
   /* Chrome 10-25, Safari 5.1-6 */
-  /*background: url("../img/bg-pattern.png"), linear-gradient(to left, #F2F1EF, #E9E6E1);*/
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: black;
+  color: white;
 }
 header .header-content {
   text-align: center;
@@ -229,9 +225,6 @@ section.download {
 section.download h2 {
   margin-top: 0;
   font-size: 50px;
-}
-section.download h3 {
-  padding-bottom: 25px;
 }
 section.download .badges .badge-link {
   display: block;
@@ -322,33 +315,27 @@ section.contact ul.list-social li a {
   color: white;
 }
 section.contact ul.list-social li.social-youtube a {
-  background-color: #d73925;
-}
-section.contact ul.list-social li.social-youtube a:hover {
   background-color: #dd4b39;
 }
-section.contact ul.list-social li.social-facebook a {
-  background-color: #344e86;
+section.contact ul.list-social li.social-youtube a:hover {
+  background-color: #d73925;
 }
-section.contact ul.list-social li.social-facebook a:hover {
+section.contact ul.list-social li.social-facebook a {
   background-color: #3b5998;
 }
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
 section.contact ul.list-social li.social-linkedin a {
-  background-color: #007AB7;
+  background-color: #0084bf;
 }
 section.contact ul.list-social li.social-linkedin a:hover {
   background-color: #2986bf;
 }
-section.contact ul.list-social li.social-instagram a {
-  background-color: #8244BB;
-}
-section.contact ul.list-social li.social-instagram a:hover {
-  background-color: #A62DB5;
-}
 footer {
-  background-color: white;
+  background-color: #222222;
   padding: 25px 0;
-  color: black;
+  color: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 footer p {
@@ -360,7 +347,7 @@ footer ul {
 }
 footer ul li a {
   font-size: 12px;
-  color: black;
+  color: rgba(255, 255, 255, 0.3);
 }
 footer ul li a:hover,
 footer ul li a:focus,
@@ -369,12 +356,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: black;
-  /*background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);*/
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
 }
 .text-primary {
-  color: white;
+  color: #fdcc52;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -382,17 +369,16 @@ footer ul li a.active {
 }
 .btn-outline {
   color: white;
-  background-color: black;
-  border-color: black;
+  border-color: white;
   border: 1px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: black;
-  background-color: transparent;
-  border-color: black;
+  color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
 }
 
 .btn-dark {
@@ -406,7 +392,7 @@ footer ul li a.active {
 .btn-dark:active,
 .btn-dark.active {
   color: white;
-  background-color: #232321;
+  background-color: transparent;
   border-color: white;
 }
 
@@ -414,10 +400,10 @@ footer ul li a.active {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
-  /*border-radius: 300px;*/
+  border-radius: 300px;
 }
 .btn-xl {
-  padding: 25px 45px;
+  padding: 15px 45px;
   font-size: 11px;
 }
 ::-moz-selection {
