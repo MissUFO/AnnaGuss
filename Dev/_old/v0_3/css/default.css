@@ -151,9 +151,6 @@ header {
   background: -webkit-linear-gradient(#F2F1EF, #E9E6E1);
   background: linear-gradient(#F2F1EF, #E9E6E1);
 
-  background: url('../img/wallpaper.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   /*background: url("../img/bg-pattern.png"), #F2F1EF;*/
   /* fallback for old browsers */
   /*background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #F2F1EF, #E9E6E1);*/
